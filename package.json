@@ -1,0 +1,25 @@
+{
+  "name": "acme-example",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:tokens": "node build-tokens.js",
+    "build:legacy": "cd legacy/ui && npm run build",
+    "build:theme": "npm run build:tokens && npm run build:legacy",
+
+    "dev:legacy": "cd legacy/public && php -S localhost:8000",
+    "dev:spa": "cd spa && npm run dev",
+    "dev:expo": "cd native && npm start",
+    "dev:expo:web": "cd native && npm run web",
+    "dev:expo:ios": "cd native && npm run ios",
+    "dev:expo:android": "cd native && npm run android",
+
+    "build:spa": "cd spa && npm run build",
+    "build:capacitor": "cd capacitor && npm run build",
+
+    "open:capacitor:ios": "cd capacitor && npm run ios",
+    "open:capacitor:android": "cd capacitor && npm run android",
+
+    "install:all": "npm install && cd shared && npm install && cd ../legacy/ui && npm install && cd ../../spa && npm install && cd ../capacitor && npm install && cd ../native && npm install"
+  }
+}

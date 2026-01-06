@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Step 2: Legacy Dev (Watch)" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/legacy/ui/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="dev" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

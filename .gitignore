@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+example/legacy/public/css/theme.css
+example/legacy/public/js/islands.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+*.local
+
+# Expo / React Native
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Capacitor native projects (generated)
+# Uncomment if you want to ignore these (they can be regenerated with `npx cap add`)
+# example/capacitor/ios/
+# example/capacitor/android/
+
+# Metro bundler
+.metro-health-check*
+
+# Testing
+coverage/
+.nyc_output/

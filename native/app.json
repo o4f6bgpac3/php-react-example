@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "ACME",
+    "slug": "acme-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#7c3aed"
+      }
+    }
+  }
+}
